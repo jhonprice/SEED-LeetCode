@@ -1,6 +1,5 @@
 package com.seed.leetcode.easy;
 
-import java.util.Map;
 import java.util.Scanner;
 
 /**
@@ -17,7 +16,7 @@ public class JudgeRouteCircle {
         }
         return counts['U'] == counts['D'] && counts['L'] == counts['R'];
     }
-    public boolean judgeCircle(String moves) {
+    private boolean judgeCircle(String moves) {
         int moveX=0;
         int moveY=0;
         for (char c : moves.toCharArray()){

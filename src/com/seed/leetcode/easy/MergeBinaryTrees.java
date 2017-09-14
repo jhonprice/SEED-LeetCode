@@ -5,14 +5,14 @@ package com.seed.leetcode.easy;
  */
 
 public class MergeBinaryTrees {
-    class TreeNode {
+    private class TreeNode {
         int val;
         TreeNode left;
         TreeNode right;
         TreeNode(int x) { val = x; }
     }
     //do not use loop
-    public TreeNode mergeTrees(TreeNode t1, TreeNode t2) {
+    private TreeNode mergeTrees(TreeNode t1, TreeNode t2) {
         if(t1==null&&t2==null) return null;
 
         if(t1==null){

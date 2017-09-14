@@ -4,7 +4,7 @@ package com.seed.leetcode.easy;
  * Created by 若宇 on 2017/9/13.
  */
 public class ReverseString {
-    public String reverseString(String s) {
+    private String reverseString(String s) {
         StringBuilder stringBuilder = new StringBuilder();
         char[] chars = s.toCharArray();
         for(int i=s.length()-1;i >= 0;i--){

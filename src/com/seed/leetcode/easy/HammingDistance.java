@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 
 public class HammingDistance {
-    public int hammingDistance(int x, int y) {
+    private int hammingDistance(int x, int y) {
         int sum=0;
         int xorNum = x^y;
         /*while(xorNum!=0){
